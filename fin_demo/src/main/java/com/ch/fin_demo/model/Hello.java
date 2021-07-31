@@ -7,7 +7,7 @@ public class Hello {
     final String name; // final 붙힌 이유는 requirement argument로 지정해주기 위해서 ==> RequiredArguConstructor
 
 
-//    // @nonNull
+//    // @NonNull
 //    // String name;
 
 //    String name;

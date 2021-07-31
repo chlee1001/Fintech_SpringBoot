@@ -2,7 +2,7 @@ spring:
   devtools:
     restart:
       enabled: true
-    livereload: # view?? ???? ? ???? ??? ??
+    livereload:
       enabled: true
 
   datasource:
@@ -12,9 +12,14 @@ spring:
 
   jpa:
     hibernate:
-      dialect: org.hibernate.dialect.PostgreSQL10Dialoect
       ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     properties:
       hibernate:
         format_sql: true
     show-sql: true
+
+  data:
+    rest:
+      base-path: "/rest"
+

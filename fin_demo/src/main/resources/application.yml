@@ -1,0 +1,18 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: a40844084
+
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.PostgreSQL10Dialoect
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true

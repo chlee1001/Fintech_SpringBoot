@@ -4,5 +4,19 @@ import lombok.Data;
 
 @Data
 public class Hello {
-    final String name;
+    final String name; // final 붙힌 이유는 requirement argument로 지정해주기 위해서 ==> RequiredArguConstructor
+
+
+//    // @nonNull
+//    // String name;
+
+//    String name;
+//
+//    public Hello(String name) {
+//        this.name = name;
+//    }
+//
+//    public String getName() {
+//        return name;
+//    }
 }

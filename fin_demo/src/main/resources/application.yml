@@ -23,3 +23,14 @@ spring:
     rest:
       base-path: "/rest"
 
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: key
+            clientSecret: key
+
+# Fred Key
+fred:
+  apikey: key
